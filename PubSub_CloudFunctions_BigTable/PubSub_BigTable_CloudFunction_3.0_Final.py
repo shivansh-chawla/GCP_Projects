@@ -36,8 +36,6 @@ def insert_big_table(event, context):
     introw_key = int(row_key) + 1
     row_key = str(introw_key)
 
-    print(introw_key)
-
     speed = pubsub_message_dic["speed"]
     distance = pubsub_message_dic["distance"]
     strspeed = str(speed)
