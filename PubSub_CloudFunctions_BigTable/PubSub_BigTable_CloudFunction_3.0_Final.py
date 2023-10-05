@@ -7,8 +7,8 @@ import datetime
 
 def insert_big_table(event, context):
     project_id = os.environ.get("GCP_PROJECT")
-    instance_name = "qcar-streamingdata"
-    table_name = "metrics"
+    instance_name = "test-instance-456"
+    table_name = "data"
     pubsub_message = base64.b64decode(event['data']).decode()
     pubsub_message_dic = json.loads(pubsub_message)
 
