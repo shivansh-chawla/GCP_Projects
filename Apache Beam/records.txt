@@ -1,0 +1,7 @@
+id_visits,status,duration
+1,Cancelled, 0
+2,Ended, 2
+3,Ended. 5
+4, Ended, 8
+5, Ended, 4
+6, Cancelled, 0
